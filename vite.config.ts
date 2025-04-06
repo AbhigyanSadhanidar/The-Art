@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { resolve } from 'path'  // Import specific function instead of whole module
+import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
@@ -8,6 +8,11 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, './src'),
       'src': resolve(__dirname, './src'),
+    },
+  },
+  build: {
+    rollupOptions: {
+      input: resolve(__dirname, 'src/index.tsx'), // Make sure to resolve the full path
     },
   },
 })
