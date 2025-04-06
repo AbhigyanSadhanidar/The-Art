@@ -1,0 +1,19 @@
+projects:
+  shopsy:
+    schemaPath: amplify/backend/api/shopsy/build/schema.graphql
+    includes:
+      - ""
+    excludes:
+      - ./amplify/**
+      - src/API.ts
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/API.ts
+        docsFilePath: .
+        region: ap-south-1
+        apiId: null
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
