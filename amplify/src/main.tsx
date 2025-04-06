@@ -1,19 +1,14 @@
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.tsx";
+// src/main.tsx
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "../amplify/src/App.tsx";
 import { BrowserRouter } from "react-router-dom";
-import AuthProvider from "./provider/AuthProvider.tsx";
+import "./index.css";
 
-// 🔥 Add AWS Amplify
-import { Amplify } from "aws-amplify";
-import awsconfig from "./aws-exports";
-
-Amplify.configure(awsconfig);
-
-createRoot(document.getElementById("root")!).render(
-  <AuthProvider>
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </AuthProvider>
+  </React.StrictMode>
 );

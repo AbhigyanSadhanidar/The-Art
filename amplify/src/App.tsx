@@ -1,14 +1,14 @@
 import React from 'react';
 
 import { Route, Routes } from "react-router-dom";
-import HomePage from "../amplify/src/Pages/HomePage";
-import AllProducts from "../amplify/src/Pages/AllProducts";
-import ProductDetails from "../amplify/src/Pages/ProductDetails";
-import Auth from "../amplify/src/Pages/AuthPage";
-import Menu from "../amplify/src/Pages/Menu";
-import TestHome from "../amplify/src/Pages/TestHome";
-import Posters from "../amplify/src/Pages/Posters";
-import ArtExhibition from "../amplify/src/Pages/ArtExhibition";
+import HomePage from "./Pages/HomePage";
+import AllProducts from "./Pages/AllProducts";
+import ProductDetails from "./Pages/ProductDetails";
+import Auth from "./Pages/AuthPage";
+import Menu from "./Pages/Menu";
+import TestHome from "./Pages/TestHome";
+import Posters from "./Pages/Posters";
+import ArtExhibition from "./Pages/ArtExhibition";
 
 const App = () => {
   return (
