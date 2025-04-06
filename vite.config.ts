@@ -6,13 +6,13 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
-      'src': resolve(__dirname, './src'),
+      '@': resolve(__dirname, 'src'),
+      'src': resolve(__dirname, 'src'),
     },
   },
   build: {
     rollupOptions: {
-      input: resolve(__dirname, 'src/index.tsx'), // Make sure to resolve the full path
+      input: resolve(__dirname, 'src/index.tsx'), // ✅ No leading "/"
     },
   },
 })
