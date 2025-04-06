@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "theart",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2025-04-06T15:15:23.918Z"
+}

@@ -1,0 +1,26 @@
+type User @model {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+type Product @model {
+  id: ID!
+  product_name: String!
+  description: String
+  price: Float!
+  stock_quantity: Int!
+  category_id: ID
+  image_url: String
+}
+
+type ProductInCart {
+  productId: ID!
+  quantity: Int!
+}
+
+type Cart @model {
+  id: ID!
+  userId: ID!
+  products: [ProductInCart]!
+}

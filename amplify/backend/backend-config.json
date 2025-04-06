@@ -1,0 +1,22 @@
+{
+  "api": {
+    "theart": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2025-10-23T15:15:18.992Z",
+              "apiKeyExpirationDays": 200,
+              "description": "Shopsy GraphQL Dev Key"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  }
+}

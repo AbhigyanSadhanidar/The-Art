@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "theart",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 200,
+      "apiKeyExpirationDate": "2025-10-23T15:15:18.992Z",
+      "keyDescription": "Shopsy GraphQL Dev Key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

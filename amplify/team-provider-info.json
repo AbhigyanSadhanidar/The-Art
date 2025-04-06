@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-theart-dev-b4365-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970547348363:role/amplify-theart-dev-b4365-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970547348363:role/amplify-theart-dev-b4365-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-theart-dev-b4365-deployment",
+      "UnauthRoleName": "amplify-theart-dev-b4365-unauthRole",
+      "StackName": "amplify-theart-dev-b4365",
+      "StackId": "arn:aws:cloudformation:ap-south-1:970547348363:stack/amplify-theart-dev-b4365/610f1ac0-12f6-11f0-ab2a-0afdc43925e7",
+      "AmplifyAppId": "d2jcd4zsmujy7x"
+    },
+    "categories": {
+      "api": {
+        "theart": {}
+      }
+    }
+  }
+}
